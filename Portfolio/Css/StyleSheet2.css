@@ -1,13 +1,12 @@
 ﻿body {
-
-
+    background-color: slategrey;
 }
 
 
 #proginfo{
     text-align:center;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    color: firebrick;
+    color: black;
     font-size: 30px;
 
 
