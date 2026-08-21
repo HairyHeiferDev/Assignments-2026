@@ -1,0 +1,41 @@
+﻿body
+{
+}
+
+
+.bento-grid{
+display: grid;
+    grid-template-columns: 1fr 2fr; /* Gives the left side 1 share, the right side 2 shares */
+    gap: 24px;                      /* Creates clean breathing room between your boxes */
+    max-width: 1200px;
+    margin: 40px auto;              /* Centers the grid on the page with top/bottom margin */
+    padding: 0 20px;
+
+}
+
+
+
+.bento-card3 {
+    background-color: #121214;      /* A sleek, modern dark surface tone */
+    border: 1px solid rgba(255, 255, 255, 0.08); /* A razor-thin, subtle border */
+    border-radius: 16px;            /* Smooth rounded corners */
+    padding: 24px;                  /* Internal padding so content doesn't hit the edges */
+    color: #f4f4f5;                 /* Ensures your text is bright and readable on dark surfaces */
+}
+
+.bento-card2 {
+    background-color: #121214; /* A sleek, modern dark surface tone */
+    border: 1px solid rgba(255, 255, 255, 0.08); /* A razor-thin, subtle border */
+    border-radius: 16px; /* Smooth rounded corners */
+    padding: 24px; /* Internal padding so content doesn't hit the edges */
+    color: #f4f4f5; /* Ensures your text is bright and readable on dark surfaces */
+}
+
+.bentocard4{
+
+    background-color:#121214;
+    border: 1px solid rgba(255,255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    color: #f4f4f5;
+}
