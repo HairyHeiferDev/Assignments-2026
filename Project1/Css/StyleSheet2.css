@@ -1,0 +1,118 @@
+﻿body {
+
+
+}
+
+
+#proginfo{
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: firebrick;
+    font-size: 30px;
+
+
+}
+
+#maintitle{
+  
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  font-size: 45px;
+}
+
+h3 {
+    font-family: 'Comic Sans MS'
+    
+}
+h3{
+    color: blueviolet
+
+}
+h2{
+    font-family: 'Comic Sans MS'
+
+}
+
+#introtext {
+    text-align:center;
+    color: rebeccapurple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#banner{
+
+    text-align:center;
+    
+
+}
+
+#task-form{
+
+}
+
+
+#task-list{
+font-family: 'Comic Sans MS';
+font-size: 25px;
+}
+
+
+#myclasses{
+list-style-position: inside;
+   
+
+    
+}
+
+
+.status-badge {
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 6px 12px;
+    border-radius: 9999px; /* Fully rounded pill shape */
+    font-size: 25px;
+    color: black;        /* Muted text color */
+    font-weight: 500;
+    display: flex;
+    
+}
+
+/* The green dot itself */
+.pulse-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #22c55e; /* Vibrant green */
+    border-radius: 50%;
+    position: relative;
+    flex-shrink: 0;
+}
+
+/* Creating the glowing radar effect */
+.pulse-dot::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    animation: pulse-ring 2s infinite cubic-bezier(0.4, 0, 0.6, 1);
+    opacity: 0.75;
+}
+
+/* Keyframes that make the ring expand and fade */
+@keyframes pulse-ring {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(2.5);
+        opacity: 0;
+    }
+}
