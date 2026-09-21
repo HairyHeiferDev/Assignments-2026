@@ -1,0 +1,36 @@
+/* look this up using good i removed background size so it would sit in the moddle of page nicely 
+works out but not my orginal code PNG is from onlinbe icon website */
+body {
+    background-color: rgb(248, 248, 248);
+  
+    background-image: url("../images/Gundam.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-attachment: fixed;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+h1 {
+    color: blue;
+}
+
+h2 {
+
+    color: red;
+}
+
+
+h5 {
+
+    color: darkgreen;
+
+}
+
+
+ul {
+
+    color: orangered;
+}
