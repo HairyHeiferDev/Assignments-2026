@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEAGUE OF LEGENDS 2026</title>
+<link rel="stylesheet" href="css/Style.css">
+</head>
+
+<header class="header">
+    <div class="header-container">
+     <img src="css/images/worlds.jpeg" class="teamlogo">
+     <div class="teambrand">
+       <h1 class="title">GENG WILL WIN WORLDS</h1>
+        <p class="Tagline"></p>
+     </div>
+    </div>
+    <nav class="site-nav">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">Meet The Players!!</a></li>
+      <li><a href="services.html">Merch Shop</a></li>
+      <li><a href="contact.html">Socials    </a></li>
+    </ul>
+  </nav>
+<div class="banner-wrapper">
+    <img src="css/images/GenG_Cup2026.jpg" alt="Team Banner" class="sub-banner">
+  </div> 
+</header>
+
+
+

@@ -1,0 +1,82 @@
+body {
+  background-image: url('images/geng1.png');
+  background-position: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+.site-header {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 1.5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the header container nicely on the page */
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Fixed 'right' to valid flex alignment */
+  justify-content: space-between; /* Safely pushes items across the layout */
+  gap: 1.25Rem;
+}
+
+.teamlogo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fbda02;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.teambrand {
+  font-size: 30px;
+  color: rgb(241, 177, 0);
+  margin-top: 0.25rem;
+}
+
+.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0; /* Removed the 800px margin that pushes it off screen */
+  padding: 0.5rem 1rem;
+  border-style: double;
+  border-color: #060606; /* Optional: matches your yellow theme */
+  border-radius: 20px;
+  background-color: rgba(241, 202, 2, 0.8); /* Gives the nav box a solid backdrop */
+justify-content: center;
+}
+
+.site-nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+  
+}
+
+.site-nav a:hover {
+  color: #38bdf8; /* Accent color on hover */
+}
+
+.banner-wrapper {
+  max-width: 800px; /* Adjust this to match your nav bar or header width */
+  margin: 1rem auto 0 auto; /* Centers the image and adds space below the nav bar */
+  width: 100%;
+}
+
+.sub-banner {
+  width: 100%; /* Stretches fully across the wrapper container */
+  height: 800px; /* Sets a fixed height for the banner (adjust as needed) */
+  object-fit: cover; /* Ensures the image covers the area nicely without warping */
+  border-radius: 12px; /* Optional: gives the image smooth rounded corners */
+  border: 2px solid #090800; /* Optional: matches your yellow theme border */
+  display: block;
+}
