@@ -67,16 +67,134 @@ justify-content: center;
 }
 
 .banner-wrapper {
-  max-width: 800px; /* Adjust this to match your nav bar or header width */
-  margin: 1rem auto 0 auto; /* Centers the image and adds space below the nav bar */
+  max-width: 800; /* Adjust this to match your nav bar or header width */
   width: 100%;
 }
 
 .sub-banner {
-  width: 100%; /* Stretches fully across the wrapper container */
-  height: 800px; /* Sets a fixed height for the banner (adjust as needed) */
-  object-fit: cover; /* Ensures the image covers the area nicely without warping */
-  border-radius: 12px; /* Optional: gives the image smooth rounded corners */
-  border: 2px solid #090800; /* Optional: matches your yellow theme border */
+  width: 100%; 
+  height: 600px; 
+  object-fit: cover; 
+  border-radius: 12px; 
+  border: 2px solid #090800; 
   display: block;
+}
+
+.sidebar{
+
+  text-align: right;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: large;
+  font-display: auto;
+  padding-right: 20px;
+  width: 100%;
+  border-width: 70px; 
+
+;
+
+}
+
+.main-layout {
+  display: flex;
+  gap: 2rem;               /* Space between left content and right sidebar */
+  max-width: 1200px;
+  margin: 2rem auto;       /* Centers the whole layout on the page */
+  padding: 0 1rem;
+  align-items: flex-start; /* Keeps items aligned at the top */
+}
+
+.videoreel iframe {
+  position: sticky;
+  top: 0;
+  left: 105%;
+  width: 25%;
+  height: 45%;
+  
+}
+
+.video-container {
+  position: relative;
+  left: 90%;
+  padding-bottom: 56.25%; /* Creates a responsive 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border: 2px solid #fbda02; /* Gen.G yellow theme border */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.5rem;
+}
+
+.sectiontitle {
+  text-align: right;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  font-display: auto;
+  padding-right: 8%;
+  color: #f4f801;
+}
+
+.sidebartitle {
+  text-align: right;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  font-display: auto;
+  padding-right: 8%;
+  color: #f4f801;
+  padding-right: 6%;
+}
+
+
+.lscontent {
+  flex: 1;                 
+  background-color: rgba(0, 3, 8, 0.9);
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #fbda02;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+.article-title {
+  color: #fbda02;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(251, 218, 2, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+/* Image inside story card */
+.story-img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #fbda02;
+  margin-bottom: 1.5rem;
+}
+
+/* Paragraph text readability */
+.lscontent p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #e2e8f0;
+  margin-bottom: 1.25rem;
+}
+
+.intro-text {
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+/* Subheadings for each event */
+.story-heading {
+  color: #fbda02;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
 }

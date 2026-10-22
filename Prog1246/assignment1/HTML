@@ -25,9 +25,68 @@
     </ul>
   </nav>
 <div class="banner-wrapper">
-    <img src="css/images/GenG_Cup2026.jpg" alt="Team Banner" class="sub-banner">
+   
+    <img src="css/images/GenG_Cup2026.jpg" alt="Team Banner" class="sub-banner"> <p>HOPEFULLY MAKING HISTORY THIS YEAR!!!</p>
   </div> 
 </header>
 
+<section class="contentarea"> 
+    <h2 class="sectiontitle">HIGHLIGHTS</h2>
+    <div class="videoreel">
+        <iframe src="css/images/GEN-vs-HLE-SnapYT.App.mp4" 
+                title="Gen.G vs HLE LCK finals Highlights" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+<main class="mainlayout">
+<aside class="sidebar"> 
+    <h1 class="sidebartitle">ACHIEVEMENTS</h1>
+    <!---Joshua Harvey JHarvey4530@conestogac.on.ca 8774530-->
+    <ul>
+<li>🥇 1st Place LCK 2026 Season Playoffs	September 13, 2020</li>
+<li>🥇 1st Place	LCK Cup 2026	March 1, 2026     </li>   
+<li>🥇 1st Place	Esports World Cup 2025	July 13, 2025 ($600,000 prize)</li>
+<li>🥇 1st Place	Mid-Season Invitational (MSI) 2025	May 2025 ($500,000 prize)</li>
+<li>🥇 1st Place	LCK 2025 Season Titles	Multiple splits won by the core structure</li>
+<li>🥉 3rd Place	Esports World Cup 2026	July 19, 2026</li>
 
+        </ol>
+    </ul>
+</aside>
+
+<<aside class="lscontent">
+  <h1 class="article-title">2026 Story So Far...</h1>
+  
+  <div class="lsimage-container">
+    <img src="css/images/geng2.jpeg" alt="Gen.G Team" class="story-img">
+  </div>
+
+  <p class="intro-text">
+    The 2026 season saw Gen.G continue its reign as a global powerhouse in League of Legends esports, building on years of domestic dominance. Operating like a well-oiled machine with a roster full of legendary superstars, Gen.G navigated a heavily restructured tournament calendar. While they faced unexpected speed bumps internationally, they closed out the year by reaffirming their absolute rule over South Korea.
+    <br><br>
+    Here is how Gen.G's 2026 year unfolded across the major events:<p>Check out their official content on the <a href="https://www.youtube.com/@gengesports" target="_blank">Gen.G YouTube Channel</a>!</p>
+  </p>
+
+  <h2 class="story-heading">LCK Cup: Dominating the New Era</h2>
+  <p>The year began with a brand-new domestic tournament format called the LCK Cup. Gen.G looked utterly flawless, adapting immediately to the new meta. They charged through the competition and blew past their opponents in the Grand Finals with a swift 3-0 sweep to capture the first-ever LCK Cup trophy, setting a terrifyingly high standard for the rest of the world.</p>
+
+  <h2 class="story-heading">First Stand: An Unexpected International Stumble</h2>
+  <p>Following their domestic victory, Gen.G qualified for First Stand, a new international tournament designed to pit the best teams from every global region against one another early in the year. Entering as heavy favourites, Gen.G suffered a shocking wake-up call. They were soundly swept 0-3 in the semifinals by Europe's top team, G2 Esports, ending their first global run of the year in a modest 3rd–4th place finish.</p>
+
+  <h2 class="story-heading">LCK Road to MSI: A Fierce Rivalry</h2>
+  <p>Domestically, the fight to qualify for the prestigious Mid-Season Invitational (MSI) was fiercer than ever. In the LCK Road to MSI tournament, Gen.G fought their way to the upper echelon but clashed with their historic, bitter rivals: T1. In a dramatic, heart-pounding 5-game series, T1 managed to edge them out 3-2, leaving Gen.G in 3rd place and narrowly missing out on the MSI main stage.</p>
+
+  <h2 class="story-heading">Esports World Cup: Podium Finish</h2>
+  <p>In July, the team traveled to Paris to compete in the Esports World Cup. Looking to reclaim their international pride, Gen.G put up a strong fight in the high-stakes bracket. Though they missed out on the Grand Finals, they secured a solid 3rd-place finish and pocketed $220,000 in prize money after defeating T1 in a 2-1 thriller during the tournament.</p>
+
+  <h2 class="story-heading">LCK Season Playoffs: Reclaiming the Crown</h2>
+  <p>Gen.G saved their absolute best performance for the final domestic stretch of the year. Entering the LCK Season Playoffs, they played with signature, ice-cold calculation. They dismantled KT Rolster and outclassed Hanwha Life Esports twice in best-of-five series—culminating in a spectacular 3-1 victory in the Grand Finals on September 13 to be crowned the undisputed 2026 LCK Champions.</p>
+
+  <h2 class="story-heading">Worlds 2026: Marching to the Ultimate Stage</h2>
+  <p>By capturing the regional championship, Gen.G entered the 2026 World Championship (Worlds) as South Korea's highly feared #1 seed. Having historically struggled to capture the ultimate Worlds trophy despite dominating locally, the team marched into the main event with a singular focus: to finally conquer the world stage.</p>
+</aside>
+</main>
 
